@@ -1,0 +1,67 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .t {
+    height: 20%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .t .left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+}
+
+.main .t .left button {
+    width: 100px;
+    height: 40px;
+    outline: none;
+}
+
+.main .t .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+
+.main .t .right .on {
+    background-color: #59d65d;
+    color: white;
+    width: 100px;
+    height: 40px;
+    outline: none;
+}
+
+.main .t .right .off {
+    color: white;
+    background-color: #EB1D36;
+    width: 100px;
+    height: 40px;
+    outline: none;
+}
+
+.main .arena {
+    height: 95%;
+    width: 90%;
+    background-color: #0F3D3E;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    overflow: hidden;
+    border: 3px #F1F1F1;
+    border-style: groove;
+    border-radius: 20px;
+}
